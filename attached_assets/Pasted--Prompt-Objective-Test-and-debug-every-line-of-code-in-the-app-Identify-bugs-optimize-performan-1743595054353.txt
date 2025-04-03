@@ -1,0 +1,35 @@
+
+Prompt:
+
+Objective: Test and debug every line of code in the app. Identify bugs, optimize performance, and ensure that the app runs smoothly.
+	1.	Initialize Debugging:
+	•	Start by analyzing the codebase.
+	•	Identify any potential errors, warnings, or inefficiencies across all files.
+	2.	Function-Level Analysis:
+	•	For each function or method, ensure that:
+	•	The function logic is sound and correctly implemented.
+	•	Variables are properly initialized and used.
+	•	There are no dead code paths.
+	•	Edge cases and input validation are properly handled.
+	3.	Test Edge Cases:
+	•	For each function, simulate edge cases (e.g., invalid inputs, boundary conditions) and verify the behavior.
+	•	Check for off-by-one errors, overflow issues, or unexpected behavior on extreme inputs.
+	4.	Check Code Coverage:
+	•	Verify that every line of the code is covered by tests. Generate missing tests if necessary.
+	•	Run unit tests, integration tests, and UI tests (if applicable).
+	5.	Optimize Performance:
+	•	Review the code for performance bottlenecks, such as inefficient loops, excessive database calls, or unoptimized data structures.
+	•	Suggest improvements for better memory management, speed, and responsiveness.
+	6.	Error Handling and Logging:
+	•	Ensure that the app has proper error handling for all possible exceptions.
+	•	Review logging mechanisms to ensure informative logs without unnecessary verbosity.
+	7.	Review Dependencies:
+	•	Ensure that external libraries and packages are correctly installed, updated, and used efficiently.
+	•	Remove any unused or redundant dependencies.
+	8.	Cross-Platform Testing:
+	•	Verify the app’s behavior across different environments (e.g., different operating systems, browsers, or devices if applicable).
+	9.	Security Check:
+	•	Review the code for security vulnerabilities such as SQL injection, cross-site scripting (XSS), and others.
+	•	Ensure sensitive data is properly protected.
+	10.	Generate Debugging Report:
+	•	After performing the above tasks, generate a detailed debugging report with identified issues, suggested fixes, and performance metrics.
